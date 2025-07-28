@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ACI Computer Classes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">ACI  COMPUTER  INSTITUTE  CHAPRA  MAKER  BYPASS  ROAD, SARAN</div>
+      <ul class="nav-links">
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#" onclick="showOfferPopup()">🎁 Active Offer</a></li>
+        <li><a href="#enquiry">Enquiry</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <h1 id="typewriter"></h1>
+    <p>भारत सरकार द्वारा मान्यता प्राप्त प्रशिक्षण केंद्र</p>
+    <a href="#courses" class="btn">Explore Courses</a>
+  </section>
+
+
+
+  <!-- ===== COURSES SECTION ===== -->
+  <section id="courses" class="section">
+    <h2>📚 Our Courses</h2>
+    <div class="course-container">
+
+      <div class="course-card" onclick="toggleDetails('adca')">
+        <h3>ADCA</h3>
+        <p>Advanced Diploma in Computer Applications</p>
+        <div id="adca" class="course-details">
+          <ul>
+            <li><strong>🕒 Duration:</strong>1 year</li>
+            <li><strong>🎓 Eligibility:</strong> 10th Pass or Above</li>
+            <br>
+            <li>✅ DCA (Fundamentals, MS Office, Internet)</li>
+            <li>✅ Tally with GST</li>
+            <li>✅ DTP (Photoshop, CorelDRAW , PageMaker)</li>
+          </ul>
+        </div>
+      </div>
+
+ <div class="course-card" onclick="toggleDetails('dca')">
+  <h3>DCA</h3>
+  <p>Diploma in Computer Applications</p>
+  <div id="dca" class="course-details">
+    <ul>
+      <li><strong>🕒 Duration:</strong> 4 Months</li>
+      <li><strong>🎓 Eligibility:</strong> 10th Pass or Above</li>
+      <br>
+      <li>✅ Computer Fundamental</li>
+      <li>✅ Microsoft Windows</li>
+      <li>✅ MS-Paint</li>
+      <li>✅ Sound Recorder</li>
+      <li>✅ Systems Overview</li>
+      <li>✅ Multimedia</li>
+      <li>✅ HTML</li>
+      <li>✅ Microsoft Office (Word, Excel, PowerPoint)</li>
+      <li>✅ Control Panel</li>
+      <li>✅ Concept of Internet & E-Mail</li>
+      <li>✅ Scanning & Printing</li>
+      <li>✅ Installation of Software</li>
+      <li>✅ Installation of Fonts & Pictures</li>
+
+    </ul>
+  </div>
+</div>
+
+
+
+      <div class="course-card" onclick="toggleDetails('cca')">
+        <h3>CCA</h3>
+        <p>Certificate in Computer Applications</p>
+        <div id="cca" class="course-details">
+          <ul>
+           <li><strong>🕒 Duration:</strong> 1 Year</li>
+           <li><strong>🎓 Eligibility:</strong> 10th Pass or Above</li>
+           <br>
+           <li>✅ Basics of Computer (Hardware & Software)</li>
+           <li>✅ Operating System (Windows/Linux basics)</li>
+           <li>✅ MS Word - Word Processing</li>
+           <li>✅ MS Excel - Spreadsheets</li>
+           <li>✅ MS PowerPoint - Presentations</li>
+           <li>✅ Internet and Email Usage</li>
+           <li>✅ File Management and Shortcut Keys</li>
+           <li>✅ Computer Security and Antivirus Basics</li>
+           <li>✅ Introduction to Programming (optional/basic level)</li>
+           <li>✅ Introduction to Tally or Accounting Software (in some versions)</li>
+           <li>✅ Typing Practice (English & sometimes Hindi)</li>
+           <li>✅ Practical Lab Sessions</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="course-card" onclick="toggleDetails('tally')">
+        <h3>Tally</h3>
+        <p> Financial Accounting Program</p>
+        <div id="tally" class="course-details">
+          <ul>
+           <li><strong>🕒 Duration:</strong> 3 Months</li>
+           <li><strong>🎓 Eligibility:</strong> 10th Pass or Above</li>
+           <br>
+           <li>✅ Financial Accounting package</li>
+           <li>✅ Need for Accounting</li>
+           <li>✅ Types of Accounting</li>
+           <li>✅ Accounting Principle or Standards</li>
+           <li>✅ Recording Transition in Journal</li>
+           <li>✅ Ledger, Trial Balance</li>
+           <li>✅ Accounting Introduction and information</li>
+           <li>✅ Account Group deletion of Company</li>
+           <li>✅ Company creation and Alternation</li>
+           <li>✅ Secondary Group</li>
+           <li>✅ Ledger Creation and Balance Sheet</li>
+           <li>✅ Inventory Management</li>
+           <li>✅ GST (Goods and Services Tax)</li>
+           <li>✅ Payroll and Employee Management</li>
+           <li>✅ Bank Reconciliation Statement (BRS)</li>
+           <li>✅ Final Accounts Preparation</li>
+           <br>
+           <li>👉 AND MANY MORE🏆</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="course-card" onclick="toggleDetails('dtp')">
+        <h3>DTP</h3>
+        <p>Desktop Publishing</p>
+        <div id="dtp" class="course-details">
+          <ul>
+            <li><strong>🕒 Duration:</strong> 3 Months</li>
+            <li><strong>🎓 Eligibility:</strong> 10th Pass or Above</li>
+            <br>
+            <li>✅ Photoshop</li>
+            <li>✅ CorelDRAW</li>
+            <li>✅ PageMaker</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="course-card" onclick="toggleDetails('basic')">
+        <h3>Basic Computer</h3>
+        <p>Computer Starter Course</p>
+        <div id="basic" class="course-details">
+          <ul>
+            <li><strong>🕒 Duration:</strong> 6 Months</li>
+            <li><strong>🎓 Eligibility:</strong> 8th Pass or Above</li>
+            <br>
+            <li>✅ Introduction to Computer and Its Components</li>
+            <li>✅ Types of Computers (Analog, Digital, Hybrid)</li>
+            <li>✅ Input and Output Devices</li>
+            <li>✅ Memory Units (RAM, ROM, Hard Disk, etc.)</li>
+            <li>✅ Software and Hardware Concepts</li>
+            <li>✅ Operating System Basics (Windows, Linux)</li>
+            <li>✅ File and Folder Management</li>
+            <li>✅ MS Word - Word Processing</li>
+            <li>✅ MS Excel - Spreadsheet Basics</li>
+            <li>✅ MS PowerPoint - Creating Presentations</li>
+            <li>✅ Using Internet and Web Browsers</li>
+            <li>✅ Creating and Using Email Accounts</li>
+            <li>✅ Computer Networking Basics</li>
+            <li>✅ Cyber Security Awareness</li>
+            <li>✅ Shortcut Keys and Computer Tricks</li>
+          </ul>
+        </div>
+      </div>
+      <!-- DFA -->
+<div class="course-card" onclick="toggleDetails('dfa')">
+  <h3>DFA</h3>
+  <p>Diploma in Financial Accounting</p>
+  <div id="dfa" class="course-details">
+    <ul>
+      <li><strong>🕒 Duration:</strong> 6 Months</li>
+      <li><strong>🎓 Eligibility:</strong> 10th Pass or Above</li>
+      <br>
+      <li>✅ Complete DCA</li>
+      <li>✅ Complete TALLY</li>
+    </ul>
+  </div>
+</div>
+
+<!-- DCP -->
+<div class="course-card" onclick="toggleDetails('dcp')">
+  <h3>DCP</h3>
+  <p>Diploma in Computer Programming</p>
+  <div id="dcp" class="course-details">
+    <ul>
+     <li><strong>🕒 Duration:</strong> 2 Years</li>
+      <li><strong>🎓 Eligibility:</strong> 12th Pass or Above</li>
+      <br>
+      <li>✅ Programming Concepts</li>
+      <li>✅ C & C++ Programming</li>
+      <li>✅ HTML Basics</li>
+      <li>✅ Introduction to Python</li>
+      <li>✅ FoxPro and Networking</li>
+    </ul>
+  </div>
+</div>
+
+<div class="course-card" onclick="toggleDetails('short')">
+  <h3>Special Short Certificate Course</h3>
+  <p>Customized short-term courses</p>
+  <div id="short" class="course-details">
+    <ul>
+      <li><strong>🕒 Duration:</strong> Depends on Student</li>
+      <li><strong>🎓 Eligibility:</strong>Vary on Courses</li>
+      <br>
+      <li>✅ Internet</li>
+      <li>✅ MS-Word</li>
+      <li>✅ MS-PowerPoint</li>
+      <li>✅ Mr. Photo</li>
+      <li>✅ Photoshop</li>
+      <li>✅ Page Maker</li>
+      <li>✅ CorelDraw</li>
+      <li>✅ Typing (English And Hindi)</li>
+      <li>✅ C/C++ or FoxPro</li>
+      <li>👉 AND MANY MORE🏆</li>
+    </ul>
+  </div>
+</div>
+
+<div class="course-card free-card" onclick="toggleDetails('freekit')">
+  <h3>FREE 😊</h3>
+  <p>All items are Free with every course 👇</p>
+  <div id="freekit" class="course-details">
+    <ul>
+      <li>✅ BAG (ACI COMPUTER)</li>
+      <li>✅ BOOK</li>
+      <li>✅ PEN</li>
+      <li>✅ PROSPECTUS</li>
+      <li>✅ MONTHLY-CARD</li>
+      <li>✅ I-CARD</li>
+    </ul>
+  </div>
+</div>
+
+
+    </div>
+
+  </section>
+  
+  <div class="top-banner">
+  📢 New Batches Starting Soon! Join Now & Get FREE Registration! 🎉
+</div>
+
+<section id="why" class="section why-aci">
+  <h2>💡 Why Choose ACI Computer Institute Maker?</h2>
+  <div class="counters">
+  <div class="counter-box">
+    <h3><span class="counter" data-target="300">300</span>+</h3>
+    <p>Students Trained</p>
+  </div>
+  <div class="counter-box">
+    <h3><span class="counter" data-target="7">7</span>+</h3>
+    <p>Years of Experience</p>
+  </div>
+</div>
+
+  <ul style="color: #e3f2fd;">
+    <li>✅ Govt. Registered & ISO Certified Institute</li>
+    <li>✅ Experienced and Certified Faculty</li>
+    <li>✅ Latest Syllabus with Practical Training</li>
+    <li>✅ Affordable Fee Structure</li>
+    <li>✅ Free Study Kit with Every Course</li>
+  </ul>
+</section>
+
+<!-- ===== TESTIMONIALS SECTION ===== -->
+<section id="testimonials" class="section testimonials">
+  <h2>🗣️ What Our Students Say</h2>
+
+  <div class="testimonial-card">
+    <p>“ACI Computer Classes helped me gain real computer skills. Thank you Naveen Sir!”</p>
+    <h4>- Sachin Kumar (ADCA Student)</h4>
+  </div>
+
+  <div class="testimonial-card">
+    <p>“Best institute in Saran. Practical + theory both explained so well.”</p>
+    <h4>- Himanshu Kumar (ADCA Student)</h4>
+  </div>
+
+  <div class="testimonial-card">
+    <p>“Very supportive teacher and friendly environment. I cracked my interview because of MS Office training here.”</p>
+    <h4>- Ritu Singh  (ADCA Student)</h4>
+  </div>
+</section>
+
+<section id="enquiry" class="section enquiry-section">
+  <h2>📝 Enquiry Form</h2>
+    <form class="enquiry-form" action="https://formspree.io/f/xldlngoe" method="POST" onsubmit="return validateForm()">
+ <input type="text" id="name" name="name" placeholder="👤 Your Name" required>
+<input type="text" id="course" name="course" placeholder="📚 Course Interested" required>
+<input type="tel" id="mobile" name="mobile" placeholder="📞 Mobile Number" required>
+<textarea id="message" name="message" placeholder="✉️ Message (Optional)"></textarea>
+<input type="text" name="_gotcha" style="display:none">
+  <button type="submit">Submit Enquiry</button>
+</form>
+
+<div id="thankyou-popup" class="popup hidden">
+  <div class="popup-content">
+    <p>🎉 Thank you for your enquiry! We will contact you soon.</p>
+    <button onclick="closePopup()">OK</button>
+  </div>
+</div>
+
+<div id="already-submitted-popup" class="popup hidden">
+  <div class="popup-content" style="background: #fff3cd; color: #000;">
+    <p style="font-weight: bold;">⚠️ You have already submitted your enquiry form.</p>
+    <p>Please wait for our response. Thank you!</p>
+    <button onclick="closePopup()">OK</button>
+  </div>
+</div>
+
+
+</section>
+
+<section id="faq" class="section faq-section">
+  <h2>❓ Frequently Asked Questions</h2>
+  <div class="faq-box">
+    <div class="faq-item">
+      <h4 onclick="toggleFaq(this)">📌 Q: What is the minimum qualification to join any course?</h4>
+      <p class="faq-answer">👉 Minimum qualification is 8th pass for most courses. Some short courses can be taken by anyone.</p>
+    </div>
+    <div class="faq-item">
+      <h4 onclick="toggleFaq(this)">📌 Q: Do I get a certificate after course completion?</h4>
+      <p class="faq-answer">👉 Yes, ACI provides Govt. recognized and ISO certified certificate after course completion.</p>
+    </div>
+    <div class="faq-item">
+      <h4 onclick="toggleFaq(this)">📌 Q: Is practical training included?</h4>
+      <p class="faq-answer">👉 Yes, we focus on both theory and hands-on practical training in labs.</p>
+    </div>
+    <div class="faq-item">
+      <h4 onclick="toggleFaq(this)">📌 Q: Is there any installment system for fees?</h4>
+      <p class="faq-answer">👉 Yes, we offer monthly or 1-time fee payment.</p>
+    </div>
+    <div class="faq-item">
+  <h4 onclick="toggleFaq(this)">Q. What is the batch/course fee?</h4>
+  <p>The fee may vary depending on the course, duration, and batch timing.  
+  Please <strong><a href="tel:9576737726">call us</a></strong> or visit the center for accurate and personalized fee details. 😊</p>
+</div>
+
+  </div>
+</section>
+
+
+  <section id="contact" class="section contact">
+    <h2>📞 Contact Us</h2>
+    <div class="contact-box">
+      <div class="contact-info">
+        <p><i class="fas fa-user"></i> Naveen Kumar</p>
+        <p><i class="fas fa-phone"></i> 9576737726</p>
+        <p><i class="fas fa-phone"></i> 8540858926</p>
+        <!-- <p><i class="fab fa-instagram"></i> -->
+        <p><i class="fas fa-envelope"></i>acicomputerinstitutemaker1@gmail.com</p>
+
+        <div class="social-links">
+    <a href="https://www.instagram.com/aci_institute" target="_blank" class="insta" title="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://youtube.com/@kabueducation?si=PfRD9sQ03k_sh9ud" target="_blank" class="youtube" title="YouTube">
+      <i class="fab fa-youtube"></i>
+    </a>
+    <a href="https://www.facebook.com/aciinstitute" target="_blank" class="facebook" title="Facebook">
+      <i class="fab fa-facebook"></i>
+      </div>
+      <!-- <div class="contact-image"> -->
+<!-- <img src="naveen sir.jpeg" alt="ACI Teacher Image" class="teacher-img"> -->
+<!-- </div> -->
+ <div class="contact-image-row">
+  <img src="naveen sir.jpeg" alt="ACI Teacher Image" class="teacher-img" />
+  <div class="map-embed">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=YOUR_MAP_LINK_HERE"
+      width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </div>
+</div>
+
+</div>
+</section>
+
+<footer class="footer">
+  <p>👨‍💻 Developer:- <strong>Prince Singh</strong></p>
+  <div class="follow-instagram">
+  <a href="https://instagram.com/dp_prince_singh" target="_blank">
+    <span class="follow-text">👉 Follow Me on Insragram OR <br> <br>👉 contact me on whatsapp</span>
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="https://wa.me/919631147607" target="_blank">
+    <i class="fab fa-whatsapp" style="color: #25D366;"></i>
+  </a>
+</div>
+
+</footer>
+
+
+<a href="https://wa.me/919576737726" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<script src="script.js"></script>
+
+
+<div id="offer-popup" class="popup hidden">
+  <div class="popup-content">
+    <h3>🎁 Active Offer</h3>
+    <p id="offer-message">Checking for offers...</p>
+    <button onclick="closeOfferPopup()">Close</button>
+  </div>
+</div>
+
+</body>
+</html>
