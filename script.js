@@ -133,3 +133,20 @@ function showOfferPopup() {
 function closeOfferPopup() {
   document.getElementById("offer-popup").classList.add("hidden");
 }
+
+const whatsappFloat = document.querySelector('.whatsapp-float');
+const footer = document.querySelector('.footer');
+
+const hideWhatsappOnFooter = () => {
+  const footerRect = footer.getBoundingClientRect();
+  const windowHeight = window.innerHeight;
+
+  if (footerRect.top < windowHeight) {
+    whatsappFloat.style.display = 'none';
+  } else {
+    whatsappFloat.style.display = 'flex';
+  }
+};
+
+window.addEventListener('scroll', hideWhatsappOnFooter);
+window.addEventListener('load', hideWhatsappOnFooter);
